@@ -2,7 +2,7 @@
 
 Connect-PowerBIServiceAccount
 
- Get all reports in all workspaces NOTE: this only reports on workspaces that have reports in them
+# Get all reports in all workspaces NOTE: this only reports on workspaces that have reports in them
 # If you needed to you could run a seperate get-Workspace into a CSV, have that as a seperate table and create a   # one to many relationship from
 # the workspace table to the Report table using workspace ID as primary / foreign keys
 
